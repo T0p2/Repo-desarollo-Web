@@ -1,0 +1,96 @@
+#subtitulo{
+    color:darkblue
+}
+
+
+p.texto{
+    color:saddlebrown
+}
+
+
+p.especial{
+    color: black
+}
+
+
+
+div p.texto{
+    color:blueviolet;
+    border :4px black groove /*dotted, dashed, solid, double, groove, ridge, inset, hidden*/
+}
+
+
+#fondo{
+    background-color: black;
+    opacity: 0.5; 
+    background-image: url("foto.png");
+    background-size: 500px 500px;
+}
+
+
+ .margen{
+    background-color: gray;
+    margin:20px 0px 0px 20px; /*este mueve el texto de la cajita POR FUERA*/
+    padding: 20px;/*este mueve el texto de la cajita ADENTRO*/
+    height: 10px;
+    width: 250px;
+    border: solid 2px chocolate;
+    overflow: visible/*hidden, scroll*/; 
+}
+
+#text{
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    margin: 50px;
+    text-align: center;
+    text-shadow: 4px 2px 2px violet;
+}
+
+a:link{
+    color:blue;
+}
+a:visited{
+    color:violet;
+}
+a:hover{
+    color:BLACK;
+}
+a:active{
+    color:green;
+}
+
+
+ul{
+    list-style-type: none;
+    padding-left: 0;
+
+}
+
+
+span{
+    display: block; /*Viene por defecto inline, esta none y block*/
+    background-color: blueviolet;
+    max-width: 300px; //* la diferencia es que se ajusta si movemos la pagina*/
+}
+
+
+#position{
+    position: relative;
+   /*  left: 10px;
+    top:20px; */
+}
+
+.image{
+    width: 100px;
+    height: 100px;
+    float:left;
+}
+
+.right{
+    float:right;
+}
+
+.container{
+    width: 300px;
+    background-color: aquamarine;
+    margin:auto;
+}
