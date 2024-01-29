@@ -1,4 +1,3 @@
-
 /*alert("hola")*/
 
 /* variables */
@@ -68,12 +67,12 @@ si tienen 0 o menos chau.*/
 let fruta = ["manzana","pera","naranja"];
 
 
-let alumno={
+ let alumno={
     nombre: "Juan",
     apellido: "Perez",
     legajo: 123
 }
-
+ 
 frase= `
     el nombre del alumno ${alumno["nombre"]} <br>
     con apellido ${alumno["apellido"]} <br>
@@ -115,4 +114,3 @@ for (animal of animales){
 }
 
 
->>>>>>> e6ca6ce (update)
