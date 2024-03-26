@@ -49,10 +49,28 @@
             <p class="elements"><a href="MateriasHTML/Sistemas Int.html">Sistemas Inteligentes</a></p><br>
             <p class="elements"><a href="Sistemas.html">Gestion Ambiental</a></p><br>
             <p class="elements"><a href="MateriasHTML/Lenguajes Formales.html">Lenguajes Formales</a></p><br>
-            
-
         </article>
     </section>
+
+
+    <form action="upload.php" method="POST" enctype="multipart/form-data">
+        <label for="archivo"> Cargar archivo: </label><br>
+        <input type="file" id="archivo" name="archivo"><br>
+
+        <label for="materia">Materia: </label><br>
+        <select name="materia" id="materia">
+            <option value="redes1">Redes 1</option>
+        </select> <br>
+
+        <label for="nombre_archivo">Nombre del Archivo: </label><br>
+        <input type="text" id="nombre_archivo" name="nombre_archivo"><br>
+
+        <input type="submit" value = "Cargar">
+
+
+
+    </form>
+
 
 
 
