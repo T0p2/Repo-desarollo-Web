@@ -1,6 +1,6 @@
 <?php
 // Directorio donde se guardarán los archivos
-$directorioBase = 'materiales/';
+$directorioBase = 'Repo-desarollo-Web/';
 
 // Verificar si se ha enviado un archivo
 if(isset($_FILES['archivo'])) {
